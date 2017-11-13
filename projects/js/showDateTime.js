@@ -24,6 +24,6 @@ function showDateTime(id)
         }
         result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
         document.getElementById(id).innerHTML = result;
-        setTimeout('showDatetime("'+id+'");','1000');
+        setTimeout('showDateTime("'+id+'");','1000');
         return true;
 }
